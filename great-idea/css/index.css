@@ -64,3 +64,32 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+header {
+	width: 100%;
+	height: 90px;
+	display: flex;
+	align-items: flex-end;
+}
+
+header .links {
+	width: 75%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+header .links a {	
+	text-decoration: none;
+	color: #d2d1d6;
+}
+
+header section img {
+	height: 70px;
+	width: 95%;
+}
+
+header .logoRight {
+	display: flex;
+	width: 25%;
+	justify-content: flex-end;
+}
