@@ -53,7 +53,8 @@ table {
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
+	margin-right: 3%;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -68,7 +69,9 @@ h1, h2, h3, h4, h5 {
 header {
 	width: 100%;
 	height: 90px;
+	margin-bottom: 90px;
 	display: flex;
+	justify-content: flex-start;
 	align-items: flex-end;
 }
 
@@ -85,11 +88,65 @@ header .links a {
 
 header section img {
 	height: 70px;
-	width: 95%;
 }
 
 header .logoRight {
 	display: flex;
+	border: 1px solid black;
 	width: 25%;
-	justify-content: flex-end;
+	justify-content: flex-start;
+}
+
+h1 {
+	font-size: 85px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.leftCol {
+	border: 1px solid black;
+	color: black;
+	font-size: 20px;
+	padding: 10px 40px 10px 40px;
+	text-decoration: none;
+}
+
+/*.rightCol {
+	margin-right: 96px;
+}*/
+
+.container {
+	display: flex;
+	margin-bottom: 90px;
+}
+
+.container .sectionTwo {
+	width: 48%;
+	height: 360px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container .headerImg {
+	width: 48%;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+}
+
+.middle-text h2 {
+	font-size: 20pt;
+}
+
+.inner-Left {
+	margin-right: 90px;
+}
+
+.middle-text {
+	margin: 0 50px 70px 50px;
+	padding-top: 20px;
+	border-top: 2px solid black;
+	width: 100%;
+	display: flex;	
 }
