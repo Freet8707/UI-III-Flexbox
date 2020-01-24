@@ -155,7 +155,7 @@ h1 {
 }
 
 .centerImg {
-	margin-bottom: 70px;
+	margin-bottom: 40px;
 	display: flex;
 	justify-content: center;
 }
@@ -164,7 +164,6 @@ h1 {
 	margin: 0 50px 70px 50px;
 	padding-top: 20px;
 	width: 100%;
-	border-top: 2px solid black;
 	display: flex;
 }
 
@@ -176,3 +175,21 @@ h1 {
 	font-size: 20pt;
 }
 
+.contactDetails {
+	margin: 0 10px 40px 50px;
+	padding-top: 40px;
+	width: 100%;
+	border-top: 2px solid black;
+	display: flex;
+	flex-direction: column;
+}
+
+.contactDetails h2 {
+	font-size: 20pt;
+}
+
+.copyRight {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
