@@ -92,7 +92,6 @@ header section img {
 
 header .logoRight {
 	display: flex;
-	border: 1px solid black;
 	width: 25%;
 	justify-content: flex-start;
 }
@@ -150,3 +149,30 @@ h1 {
 	width: 100%;
 	display: flex;	
 }
+
+.centerImg .middle-img {
+	width: 90%;
+}
+
+.centerImg {
+	margin-bottom: 70px;
+	display: flex;
+	justify-content: center;
+}
+
+.botSection {
+	margin: 0 50px 70px 50px;
+	padding-top: 20px;
+	width: 100%;
+	border-top: 2px solid black;
+	display: flex;
+}
+
+.botSection div {
+	margin-right: 70px;
+}
+
+.botSection h2 {
+	font-size: 20pt;
+}
+
