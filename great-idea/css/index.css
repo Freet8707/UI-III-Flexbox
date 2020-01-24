@@ -202,7 +202,7 @@ h1 {
 .headContainer {
 	width: 100%;
 	height: 90px;
-	margin-bottom: 90px;
+	margin-bottom: 50px;
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-end;
@@ -223,4 +223,33 @@ h1 {
 	width: 25%;
 	display: flex;
 	justify-content: flex-end;
+}
+
+.services-header-img {
+	width: 1179px;
+}
+
+.imgContainer {
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.servicesDesc h2 {
+	font-size: 20pt;
+}
+
+.servicesDesc {
+	margin-left: 85px;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid black;
+	display: flex;
+	flex-direction: column;
+}
+
+.bodyBoxes {
+	background-color: teal;
+	margin-left: 85px;
+	margin-bottom: 50px;
 }
